@@ -1,0 +1,16 @@
+spring: 
+  jpa: 
+    hibernate: 
+      ddl-auto: update
+  datasource: 
+    url: jdbc:postgresql://localhost:5432/Novelvista
+    username: postgres
+    password: Admin
+    driver-class-name: org.postgresql.Driver
+  mvc: 
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+server:
+  port: 8082
+ 
